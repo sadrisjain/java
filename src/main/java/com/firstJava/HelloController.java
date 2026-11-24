@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping("/")
     public String home() {
-        return "Hello! My first Java application is running in tomcat server t";
+        return "Hello! My first Java application is running in tomcat server";
     }
 }
