@@ -22,7 +22,7 @@ class HelloControllerTest {
         mockMvc.perform(get("/"))
                 .andExpect(status().isOk())
                 .andExpect(content().string(
-                        "Hello! My first Java application is running in tomcat server"
+                        "Hello! My first Java application is running on tomcat server"
                 ));
     }
 }
